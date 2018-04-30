@@ -11,7 +11,7 @@ import org.w3c.dom.*;               // import DOM
 /**
 DOM handler to read XML information, to create this, and to print it.
 
-@author   CSCU9T4, University of Stirling
+@author   jamesfaitas
 @version  11/03/2017
  */
 public class csv2xml{
