@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="questionList"> <!-- list of questions -->
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="question" type="question" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>	
+	</xs:complexType>
+</xs:element>
+<!-- question element is a complex type that contains: a query,an answer(complexType) and optionally a comment -->
+<xs:complexType name="question"> 
+		<xs:sequence>
+			<xs:element name="query" type="xs:string"/>	<!-- minOccurs and maxOccurs are by default 1 -->
+			
+			<xs:element name="answer" type="answers"/> 
+			<xs:choice>
+				<xs:element name="comment" type="comments" minOccurs="0" maxOccurs="unbounded"/> <!-- optionally but thee can be many comments -->				
+			</xs:choice> 						
+		</xs:sequence>
+</xs:complexType>
+<!-- The comment element has an attribute, content and and optionally another comment -->
+<xs:complexType name="comments">
+	<xs:choice>
+	<xs:sequence>	
+		<xs:element name="content" type="xs:string" minOccurs="1" maxOccurs="1"/>		
+	</xs:sequence>
+	<xs:sequence>
+		<xs:element name="comment" type="xs:string" minOccurs="0"/>
+	</xs:sequence>
+	</xs:choice>
+	<xs:attribute name="id" type="xs:string"/> <!-- comment's id -->
+</xs:complexType>
+<!-- The answer element can two specific sets of answers -->
+<xs:complexType name="answers">
+	<xs:choice>
+			<!-- First set of possible answers -->
+			<xs:sequence>
+				<xs:element name="yes" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="no" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="blank" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="comment" type="comments" minOccurs="0" maxOccurs="unbounded"/>	
+			</xs:sequence>
+			<!-- Second set of possible answers -->
+			<xs:sequence>
+				<xs:element name="stand" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="sit" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="blank" type="xs:nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="optional" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1"/>	
+				<xs:element name="comment" type="comments" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>						
+		</xs:choice>
+</xs:complexType>
+</xs:schema>

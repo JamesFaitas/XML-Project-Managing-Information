@@ -1,0 +1,571 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+   <rect width="100%"
+         height="100%"
+         style="fill:rgb(245,245,245);stroke:rgb(0,0,0);stroke-width:0"/>
+   <text id="header"
+         x="100px"
+         y="40px"
+         style="fill:rgb(0,0,0);font-size:18;font-family:Arial">SANITARY CONDITION OF WORKSHOPS AND FACTORIES</text>
+   <g id="axis">
+      <line id="axis-y"
+            x1="45"
+            y1="70"
+            x2="45"
+            y2="465"
+            style="fill:none;stroke:rgb(0,0,0);stroke-width:2"/>
+      <line id="axis-x"
+            x1="45"
+            y1="465"
+            x2="645"
+            y2="465"
+            style="fill:none;stroke:rgb(0,0,0);stroke-width:2"/>
+      <text id="half"
+            x="5px"
+            y="27.5%"
+            style="fill:rgb(0,0,0);font-size:14;font-family:Arial">50%</text>
+      <text id="full"
+            x="5px"
+            y="7%"
+            style="fill:rgb(0,0,0);font-size:14;font-family:Arial">100%</text>
+   </g>
+   <g id="legend">
+      <text x="700"
+            y="150"
+            style="fill:rgb(0,0,0);font-size:16;font-family:Arial">Legend: Survey Responses</text>
+      <text x="750px"
+            y="180px"
+            style="fill:rgb(0,0,0);font-size:18;font-family:Arial">Blank</text>
+      <text x="750px"
+            y="200px"
+            style="fill:rgb(0,0,0);font-size:18;font-family:Arial">No</text>
+      <text x="750px"
+            y="220px"
+            style="fill:rgb(0,0,0);font-size:18;font-family:Arial">Yes</text>
+      <rect id="Blank"
+            x="700px"
+            y="168px"
+            width="25"
+            height="10"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:1"/>
+      <rect id="No"
+            x="700px"
+            y="188px"
+            width="25"
+            height="10"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:1"/>
+      <rect id="Yes"
+            x="700px"
+            y="208px"
+            width="25"
+            height="10"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:1"/>
+   </g>
+   <g>
+      <rect x="50"
+            y="70"
+            width="40"
+            height="293.5"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="57"
+            y="216.75"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">72%</text>
+   </g>
+   <g>
+      <rect x="50"
+            y="343.5"
+            width="40"
+            height="58"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="57"
+            y="383.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">14%</text>
+   </g>
+   <g>
+      <rect x="50"
+            y="401.5"
+            width="40"
+            height="53.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="57"
+            y="436.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">13%</text>
+   </g>
+   <g>
+      <rect x="100"
+            y="70"
+            width="40"
+            height="263.5"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="107"
+            y="201.75"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">65%</text>
+   </g>
+   <g>
+      <rect x="100"
+            y="313.5"
+            width="40"
+            height="51"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="107"
+            y="353.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">13%</text>
+   </g>
+   <g>
+      <rect x="100"
+            y="364.5"
+            width="40"
+            height="90.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="107"
+            y="399.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">22%</text>
+   </g>
+   <g>
+      <rect x="150"
+            y="70"
+            width="40"
+            height="254.5"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="157"
+            y="197.25"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">63%</text>
+   </g>
+   <g>
+      <rect x="150"
+            y="304.5"
+            width="40"
+            height="63"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="157"
+            y="344.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">16%</text>
+   </g>
+   <g>
+      <rect x="150"
+            y="367.5"
+            width="40"
+            height="87.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="157"
+            y="402.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">22%</text>
+   </g>
+   <g>
+      <rect x="200"
+            y="70"
+            width="40"
+            height="234"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="207"
+            y="187"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">58%</text>
+   </g>
+   <g>
+      <rect x="200"
+            y="284"
+            width="40"
+            height="124.5"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="207"
+            y="324"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">31%</text>
+   </g>
+   <g>
+      <rect x="200"
+            y="408.5"
+            width="40"
+            height="46.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="207"
+            y="443.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">11%</text>
+   </g>
+   <g>
+      <rect x="250"
+            y="70"
+            width="40"
+            height="230"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="257"
+            y="185"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">57%</text>
+   </g>
+   <g>
+      <rect x="250"
+            y="280"
+            width="40"
+            height="62"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="257"
+            y="320"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">15%</text>
+   </g>
+   <g>
+      <rect x="250"
+            y="342"
+            width="40"
+            height="113"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="257"
+            y="377"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">28%</text>
+   </g>
+   <g>
+      <rect x="300"
+            y="70"
+            width="40"
+            height="177"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="307"
+            y="158.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">44%</text>
+   </g>
+   <g>
+      <rect x="300"
+            y="227"
+            width="40"
+            height="110.5"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="307"
+            y="267"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">27%</text>
+   </g>
+   <g>
+      <rect x="300"
+            y="337.5"
+            width="40"
+            height="117.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="307"
+            y="372.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">29%</text>
+   </g>
+   <g>
+      <rect x="350"
+            y="70"
+            width="40"
+            height="175"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="357"
+            y="157.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">43%</text>
+   </g>
+   <g>
+      <rect x="350"
+            y="225"
+            width="40"
+            height="159"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="357"
+            y="265"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">39%</text>
+   </g>
+   <g>
+      <rect x="350"
+            y="384"
+            width="40"
+            height="74"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="357"
+            y="419"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">18%</text>
+   </g>
+   <g>
+      <rect x="400"
+            y="70"
+            width="40"
+            height="171"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="407"
+            y="155.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">42%</text>
+   </g>
+   <g>
+      <rect x="400"
+            y="221"
+            width="40"
+            height="116.5"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="407"
+            y="261"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">29%</text>
+   </g>
+   <g>
+      <rect x="400"
+            y="337.5"
+            width="40"
+            height="117.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="407"
+            y="372.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">29%</text>
+   </g>
+   <g>
+      <rect x="450"
+            y="70"
+            width="40"
+            height="160"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="457"
+            y="150"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">40%</text>
+   </g>
+   <g>
+      <rect x="450"
+            y="210"
+            width="40"
+            height="96"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="457"
+            y="250"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">24%</text>
+   </g>
+   <g>
+      <rect x="450"
+            y="306"
+            width="40"
+            height="149"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="457"
+            y="341"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">37%</text>
+   </g>
+   <g>
+      <rect x="500"
+            y="70"
+            width="40"
+            height="132.5"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="507"
+            y="136.25"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">33%</text>
+   </g>
+   <g>
+      <rect x="500"
+            y="182.5"
+            width="40"
+            height="192.5"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="507"
+            y="222.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">47%</text>
+   </g>
+   <g>
+      <rect x="500"
+            y="375"
+            width="40"
+            height="82.5"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="507"
+            y="410"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">20%</text>
+   </g>
+   <g>
+      <rect x="550"
+            y="70"
+            width="40"
+            height="118"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="557"
+            y="129"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">29%</text>
+   </g>
+   <g>
+      <rect x="550"
+            y="168"
+            width="40"
+            height="193.5"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="557"
+            y="208"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">47%</text>
+   </g>
+   <g>
+      <rect x="550"
+            y="361.5"
+            width="40"
+            height="99"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="557"
+            y="396.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">24%</text>
+   </g>
+   <g>
+      <rect x="600"
+            y="70"
+            width="40"
+            height="112"
+            style="fill:rgb(100,200,0);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="607"
+            y="126"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">27%</text>
+   </g>
+   <g>
+      <rect x="600"
+            y="162"
+            width="40"
+            height="187.5"
+            style="fill:rgb(250,10,10);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="607"
+            y="202"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">46%</text>
+   </g>
+   <g>
+      <rect x="600"
+            y="349.5"
+            width="40"
+            height="109"
+            style="fill:rgb(135,135,135);stroke:rgb(0,0,0);stroke-width:0"/>
+      <text x="607"
+            y="384.5"
+            style="fill:rgb(0,0,0);font-size:12;font-family:Arial">27%</text>
+   </g>
+   <text x="120"
+         y="-162"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			1
+			:
+			</text>
+   <text x="120"
+         y="-113"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			2
+			:
+			</text>
+   <text x="120"
+         y="-64"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			3
+			:
+			</text>
+   <text x="120"
+         y="-15"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			4
+			:
+			</text>
+   <text x="120"
+         y="34"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			5
+			:
+			</text>
+   <text x="120"
+         y="83"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			6
+			:
+			</text>
+   <text x="120"
+         y="132"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			7
+			:
+			</text>
+   <text x="120"
+         y="181"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			8
+			:
+			</text>
+   <text x="120"
+         y="230"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			9
+			:
+			</text>
+   <text x="120"
+         y="279"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			10
+			:
+			</text>
+   <text x="120"
+         y="328"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			11
+			:
+			</text>
+   <text x="120"
+         y="377"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">
+			Q
+			12
+			:
+			</text>
+   <text x="150"
+         y="-211"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial"/>
+   <text x="150"
+         y="-162"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are there hose attachments?</text>
+   <text x="150"
+         y="-113"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are there water tanks and buckets on each floor?</text>
+   <text x="150"
+         y="-64"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are the rooms supplied with water pipes?</text>
+   <text x="150"
+         y="-15"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">"Are seats provided, as prescribed by law?"</text>
+   <text x="150"
+         y="34"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">"Are there offensive odors in the rooms occupied by employees; if so, from what causes?"</text>
+   <text x="150"
+         y="83"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are there stairways from the windows outside?</text>
+   <text x="150"
+         y="132"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are there proper and separate facilities for change of dress by males and females?</text>
+   <text x="150"
+         y="181"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are there facilities for washing?</text>
+   <text x="150"
+         y="230"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Is there free circulation of air through and about the building in which you work?</text>
+   <text x="150"
+         y="279"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are there separate water-closets for males and females?</text>
+   <text x="150"
+         y="328"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Are employees furnished with pure drinking water?</text>
+   <text x="150"
+         y="377"
+         transform="rotate(90 50,400)"
+         style="text=anchor:middle;fill:rgb(0,0,0);font-size:10;font-family:Arial">Does the work require the employees to stoop over?</text>
+</svg>
